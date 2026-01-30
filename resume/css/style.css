@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* BLOG CONTAINER */
+.blog-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 40px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.hero-image img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* SECTIONS */
+.blog-section {
+    margin-top: 50px;
+}
+
+.blog-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+article h3 {
+    font-size: 18px;
+}
+
+.meta {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+/* SKILLS TABLE */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.skills-table th {
+    background: #f0f0f0;
+}
+
+/* CONTACT */
+.contact p {
+    margin-bottom: 6px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+/* EDUCATION TABLE WITH LINES */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;      /* merges borders cleanly */
+    border: 2px solid #999;         /* outer border */
+    margin-top: 15px;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #999;         /* inner lines */
+    padding: 12px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #eeeeee;
+    font-weight: 600;
+}
+/* ACHIEVEMENTS LIST */
+.achievements-list {
+    margin-left: 20px;       /* indent bullets */
+    list-style-type: disc;    /* classic bullet points */
+    font-size: 14px;          /* readable size */
+    color: #333;              /* text color */
+    margin-top: 10px;         /* spacing from heading */
+}
+
+.achievements-list li {
+    margin-bottom: 8px;       /* spacing between each bullet */
+    line-height: 1.5;         /* improves readability */
+}
